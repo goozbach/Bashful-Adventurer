@@ -1,0 +1,17 @@
+# Strict mode for bash?
+
+Yes it's possible. From (Michael Potter's Bash Talk)[http://www.replatformtech.com/Services/Downloads/Downloads.html]
+
+Script itself is on (GitHub)[http://github.com/pottmi/stringent.sh]
+
+## What's it do?
+* makes your script terminate on any error (instead of keep on running)
+* keeps you from overwriting files with redirection
+* keeps you from using unset variables
+* makes your script terminate on any failure inside of a series of pipes
+* on any error makes your script terminate and tell you approx which line (of which sourced file!) could be the suspect
+
+## use
+
+    source stringent.sh || exit 1
+    # do your stuff

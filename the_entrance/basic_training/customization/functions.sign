@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+	"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- Processed by MultiMarkdown -->
+		<meta name="Format" content="complete" />
+	</head>
+<body>
+
+<h1 id="somefunfunctions">some fun functions</h1>
+
+<h2 id="mkcd">mkcd</h2>
+
+<p>create and enter a directory</p>
+
+<pre><code># mkdir, cd into it
+mkcd () {
+    mkdir -p -- "$@" &amp;&amp; cd -- "$@"
+}</code></pre>
+
+<ul>
+<li>live demo with alice *</li>
+</ul>
+
+<h2 id="pathmunge">pathmunge</h2>
+
+<p>Redhatism &#8211; Add the dir passed to the function to the front or back of the PATH</p>
+
+<pre><code>pathmunge () {
+  if ! echo $PATH | grep -E -q "(^|:)$1($|:)" ; then
+   if [ "$2" = "after" ] ; then
+      PATH=$PATH:$1
+   else
+      PATH=$1:$PATH
+   fi
+  fi
+}</code></pre>
+</body>
+</html>

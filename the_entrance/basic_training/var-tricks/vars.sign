@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+	"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- Processed by MultiMarkdown -->
+		<meta name="Format" content="complete" />
+	</head>
+<body>
+
+<h1 id="variables">Variables</h1>
+
+<h2 id="random">RANDOM</h2>
+
+<p>Returns a random number</p>
+
+<ul>
+<li>roulette video *</li>
+</ul>
+
+<h2 id="ps1">PS1</h2>
+
+<p>Your first level prompt</p>
+
+<ul>
+<li>manual alice demo *</li>
+</ul>
+
+<h2 id="ps2">PS2</h2>
+
+<p>Your second level prompt</p>
+
+<ul>
+<li>manual alice demo *</li>
+</ul>
+</body>
+</html>

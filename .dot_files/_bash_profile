@@ -1,0 +1,38 @@
+# .bash_profile
+
+# prompt_command function
+read_zork() {
+  if [[ ${PWD} == ${HOME} ]]
+  then
+    PS1="[\u@\h \W]\$ "
+  else
+    PS1='\n\"\u" you are in "\W". What do you want to do?\n?) '
+  fi
+  if [[ -f .message ]]
+  then
+    if [[ -f .message.read ]]
+    then
+      :
+    else
+      cat .message
+      touch .message.read
+    fi
+  fi
+}
+alias lookaround='echo "You see..."; ls -I \*.mmd'
+alias goto='rm .message.read 2>/dev/null; cd'
+alias roll='mplayer -fs -zoom'
+alias movie='mplayer -fs -zoom'
+alias goback='rm .message.read 2>/dev/null; rm ../.message.read 2>/dev/null; cd ..'
+alias repeat='cat .message'
+alias sign='uzbl-browser -g maximized 2> /dev/null'
+alias reset_status='cd ~; find ~ -name .message.read -delete'
+alias xyzzy='echo "<FOOF!> are outside building... Having broken the fourth wall; cd ${HOME}"'
+
+PATH=${PATH}:${HOME}/.bin:${HOME}/.projects/MultiMarkdown/bin
+PROMPT_COMMAND=read_zork
+FIGNORE=${FIGNORE}:.mmd
+GLOBIGNORE=${GLOBIGNORE}:.mmd
+
+export PATH PS1 PROMPT_COMMAND
+find ~ -name .message.read -delete

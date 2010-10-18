@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+	"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- Processed by MultiMarkdown -->
+		<meta name="Format" content="complete" />
+	</head>
+<body>
+
+<h1 id="mactips">mac tips</h1>
+
+<h2 id="open">open</h2>
+
+<p>Smart opening of almost any type of file.</p>
+
+<h2 id="hdiutil">hdiutil</h2>
+
+<p>Command-line disk image managment.</p>
+
+<h2 id="drutil">drutil</h2>
+
+<p>CD drive management</p>
+
+<h2 id="say">say</h2>
+
+<p>Text to speech</p>
+
+<h2 id="oascript">oascript</h2>
+
+<p>Apple scripting &#8211; WAY POWERFUL </p>
+
+<h2 id="pbcopypbpaste">pbcopy/pbpaste</h2>
+
+<p>Send your clipboard through a pipe.</p>
+
+<h2 id="airport">airport</h2>
+
+<p>Find the binary and put it in your PATH. Wireless management.</p>
+
+<h2 id="mdtoolsiirc">mdtools(IIRC)</h2>
+
+<p>Spotlight for your shell</p>
+</body>
+</html>
