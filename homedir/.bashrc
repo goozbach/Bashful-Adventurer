@@ -1,1 +1,0 @@
-/home/hero/.dot_files/_bashrc
