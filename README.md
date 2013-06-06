@@ -10,13 +10,13 @@ But don't worry, they're being transcoded and uploaded to youtube one by one.  O
 * bash
 * [uzbl-browser](http://www.uzbl.org/) 
 * mplayer
+* ratpoison window manager
 
 ## To use
 Simply check out this repository to some location and create a new user which has it's home directory set to the `homedir/` subfolder.
 
 ## Issues
 Report any issues to the issue tracker
-
 
 Enjoy
 --
