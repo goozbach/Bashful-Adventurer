@@ -1,0 +1,11 @@
+Module: history-tricks  
+
+# Tweet my history
+
+1. Install [Bash Twitter Idiocy](http://gregkh.github.com/bti/)
+
+1. Configure your `prompt_command` to tweet your last command
+
+1. ???
+
+1. profit

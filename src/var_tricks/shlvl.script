@@ -1,0 +1,49 @@
+#!/bin/bash
+# setup
+DELAY=4
+DISP=':1.0'
+## set terminal and browser vars
+echo "detected these windows: "
+ratpoison -d ${DISP} -c 'windows %n %a'
+TERMINAL=$(ratpoison -d ${DISP} -c 'windows %n %a %t' | grep 'gnome-terminal' | cut -d ' ' -f 1)
+set_screen() {
+  TITLE=$@
+  echo "switching to window: ${TITLE}"
+  ratpoison -d ${DISP} -c "select ${TITLE}"
+}
+
+# get started
+set_screen ${TERMINAL}
+docmd.sh "cd ${HOME}"
+clearscreen.sh
+echo "Press enter to start recording..."
+read foo
+
+# recording starts
+vidcmd.sh 'startrecord.sh :1 /video/shlvl.flv'
+
+# my script
+docmd.sh 'echo $SHLVL'
+sleep ${DELAY}
+docmd.sh 'bash'
+sleep ${DELAY}
+docmd.sh 'echo $SHLVL'
+sleep ${DELAY}
+sleep ${DELAY}
+docmd.sh 'bash'
+sleep ${DELAY}
+docmd.sh 'echo $SHLVL'
+sleep ${DELAY}
+sleep ${DELAY}
+docmd.sh 'exit'
+docmd.sh 'exit'
+docmd.sh 'echo $SHLVL'
+sleep ${DELAY}
+sleep ${DELAY}
+
+# stop recording
+echo "Press enter to stop recording..."
+read foo
+vidcmd.sh 'q'
+
+# cleanup

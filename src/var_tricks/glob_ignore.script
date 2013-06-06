@@ -1,0 +1,58 @@
+#!/bin/bash
+# setup
+DELAY=4
+DISP=':1.0'
+## set terminal and browser vars
+echo "detected these windows: "
+ratpoison -d ${DISP} -c 'windows %n %a'
+TERMINAL=$(ratpoison -d ${DISP} -c 'windows %n %a %t' | grep 'gnome-terminal' | cut -d ' ' -f 1)
+set_screen() {
+  TITLE=$@
+  echo "switching to window: ${TITLE}"
+  ratpoison -d ${DISP} -c "select ${TITLE}"
+}
+
+# get started
+set_screen ${TERMINAL}
+docmd.sh "unset GLOBIGNORE"
+docmd.sh "unset FIGNORE"
+docmd.sh "cd ${HOME}/demos/globignore"
+clearscreen.sh
+echo "Press enter to start recording..."
+read foo
+
+# recording starts
+vidcmd.sh 'startrecord.sh :1 /video/globignore.flv'
+
+# my script
+sleep ${DELAY}
+docmd.sh 'touch {foo,bar,baz}{1,2,3,4}.{txt,log,bin}'
+sleep ${DELAY}
+docmd.sh 'ls'
+sleep ${DELAY}
+sleep ${DELAY}
+docmd.sh 'export GLOBIGNORE="${GLOBIGNORE}:*.bin"'
+sleep ${DELAY}
+docmd.sh 'echo ${GLOBIGNORE}'
+sleep ${DELAY}
+sleep ${DELAY}
+docmd.sh 'ls'
+sleep ${DELAY}
+docmd.sh 'ls *'
+sleep ${DELAY}
+sleep ${DELAY}
+docmd.sh 'export GLOBIGNORE="${GLOBIGNORE}:*4.*"'
+sleep ${DELAY}
+sleep ${DELAY}
+docmd.sh 'ls *'
+sleep ${DELAY}
+sleep ${DELAY}
+
+# stop recording
+echo "Press enter to stop recording..."
+read foo
+vidcmd.sh 'q'
+
+# cleanup
+docmd.sh "unset GLOBIGNORE"
+docmd.sh "rm *"

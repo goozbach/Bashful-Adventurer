@@ -1,0 +1,6 @@
+Module: Special Vars  
+
+#Bash special Variables
+* $RANDOM -- Random integer
+* globignore -- ignore via globbing
+* fignore -- ignore via filename matching

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE vymmap>
+<vymmap  version="1.12.6" author="Derek Carter" comment="A mindmap of an upcomming presentation for UTOSC 2010" date="2010-08-11" branchCount="217" backgroundColor="#ffffff" selectionColor="#ffff00" linkStyle="StylePolyParabel" linkColor="#0000ff" defXLinkColor="#e6e6e6" defXLinkWidth="1">
+    <mapcenter absPosX="-283.5" absPosY="-107.75" hideLink="false" x1="779.75" y1="982.5" x2="925.141" y2="1007.5" incImgV="false" incImgH="false">
+        <heading >CLI Judo / CYOCLI</heading>
+        <frame  frameType="Rectangle" penColor="#000000" brushColor="#ffffff" padding="0" borderWidth="1" />
+        <branch relPosX="170" relPosY="-460" hideLink="false" x1="987.25" y1="535.25" x2="1036.56" y2="556.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">security</heading>
+            <branch hideLink="false" x1="1056.56" y1="479.25" x2="1087.31" y2="498.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">limits</heading>
+                <branch hideLink="false" x1="1107.31" y1="450.75" x2="1138.84" y2="469.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">ulimit</heading>
+                </branch>
+                <branch hideLink="false" x1="1107.31" y1="469.75" x2="1135.41" y2="488.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">pam</heading>
+                </branch>
+                <branch hideLink="false" x1="1107.31" y1="488.75" x2="1152.39" y2="507.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">selinux?</heading>
+                </branch>
+                <branch hideLink="false" x1="1107.31" y1="507.75" x2="1166.8" y2="526.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">app armor?</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1056.56" y1="526.75" x2="1163.89" y2="545.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">permissions and ACLs</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.56" y1="545.75" x2="1130.47" y2="564.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">restricted bash</heading>
+                <branch hideLink="false" x1="1150.47" y1="545.75" x2="1333.86" y2="564.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">chown .bashrc/.bash_profile (for saftey)</heading>
+                    <branch hideLink="false" x1="1353.86" y1="545.75" x2="1373.95" y2="564.75" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">r/o</heading>
+                    </branch>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1056.56" y1="564.75" x2="1183.17" y2="583.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">user private group scheme</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.56" y1="583.75" x2="1098.3" y2="602.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">su-auth</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.56" y1="602.75" x2="1100.08" y2="621.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">sudoers</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.56" y1="621.75" x2="1098.42" y2="640.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">scponly</heading>
+            </branch>
+        </branch>
+        <branch relPosX="649" relPosY="-361" hideLink="false" x1="1466.25" y1="634.25" x2="1537.89" y2="655.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">customizing</heading>
+            <branch hideLink="false" x1="1557.89" y1="578.25" x2="1644.91" y2="597.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">customize prompt</heading>
+                <branch hideLink="false" x1="1664.91" y1="540.25" x2="1753.81" y2="559.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">prompt_command</heading>
+                </branch>
+                <branch hideLink="false" x1="1664.91" y1="559.25" x2="1692.22" y2="578.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">PS1</heading>
+                </branch>
+                <branch hideLink="false" x1="1664.91" y1="578.25" x2="1692.22" y2="597.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">PS2</heading>
+                </branch>
+                <branch hideLink="false" x1="1664.91" y1="597.25" x2="1692.22" y2="616.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">PS3</heading>
+                </branch>
+                <branch hideLink="false" x1="1664.91" y1="616.25" x2="1692.22" y2="635.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">PS4</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1557.89" y1="635.25" x2="1603.62" y2="654.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">dircolors</heading>
+            </branch>
+            <branch hideLink="false" x1="1557.89" y1="663.75" x2="1640.23" y2="682.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">completion tricks</heading>
+                <branch hideLink="false" x1="1660.23" y1="654.25" x2="1709.75" y2="673.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">gencomp</heading>
+                </branch>
+                <branch hideLink="false" x1="1660.23" y1="673.25" x2="1774.64" y2="692.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">write our own command</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1557.89" y1="711.25" x2="1605.28" y2="730.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">shellopts</heading>
+                <branch hideLink="false" x1="1625.28" y1="692.25" x2="1694.97" y2="711.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">bash (enable)</heading>
+                </branch>
+                <branch hideLink="false" x1="1625.28" y1="711.25" x2="1678.77" y2="730.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">pipestatus</heading>
+                </branch>
+                <branch hideLink="false" x1="1625.28" y1="730.25" x2="1665.14" y2="749.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">cdspell</heading>
+                </branch>
+            </branch>
+        </branch>
+        <branch relPosX="459" relPosY="-146" hideLink="false" x1="1276.25" y1="849.25" x2="1356.89" y2="870.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">special words</heading>
+            <branch hideLink="false" x1="1376.89" y1="831.25" x2="1393.11" y2="850.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">in</heading>
+            </branch>
+            <branch hideLink="false" x1="1376.89" y1="850.25" x2="1411.2" y2="869.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">select</heading>
+            </branch>
+            <branch hideLink="false" x1="1376.89" y1="869.25" x2="1517.81" y2="888.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">all &quot;SPECIAL PARAMETERS&quot;</heading>
+            </branch>
+        </branch>
+        <branch relPosX="265" relPosY="-62" url="http://mywiki.wooledge.org/BashPitfalls" hideLink="false" x1="1082.25" y1="933.25" x2="1153.56" y2="954.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">bash pitfalls</heading>
+        </branch>
+        <branch relPosX="477" relPosY="110" hideLink="false" x1="1294.25" y1="1105.25" x2="1347.22" y2="1126.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">scripting</heading>
+            <branch hideLink="false" x1="1367.22" y1="897.25" x2="1413.17" y2="916.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">/dev/tcp/</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="916.25" x2="1396.3" y2="935.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">tests</heading>
+                <branch hideLink="false" x1="1416.3" y1="916.25" x2="1470.98" y2="935.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">[ vs [[ vs ((</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="935.25" x2="1431.25" y2="954.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">signals/traps</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="954.25" x2="1420.16" y2="973.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">pipe tricks</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="973.25" x2="1422.03" y2="992.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">job control</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1001.75" x2="1425.7" y2="1020.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">shell bangs</heading>
+                <branch hideLink="false" x1="1445.7" y1="992.25" x2="1529.05" y2="1011.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">readme shabang</heading>
+                </branch>
+                <branch hideLink="false" x1="1445.7" y1="1011.25" x2="1530.7" y2="1030.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">readline shabang</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1039.75" x2="1453.45" y2="1058.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">background tasks</heading>
+                <branch hideLink="false" x1="1473.45" y1="1030.25" x2="1551.34" y2="1049.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">wait/co-routines</heading>
+                </branch>
+                <branch hideLink="false" x1="1473.45" y1="1049.25" x2="1568.77" y2="1068.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">suspend/job control</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1068.25" x2="1469.12" y2="1087.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">read/REPLY/TMOUT</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1087.25" x2="1478.55" y2="1106.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">read/write redirector &lt;&gt;</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1115.75" x2="1421.7" y2="1134.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">translation</heading>
+                <branch hideLink="false" x1="1441.7" y1="1106.25" x2="1461.25" y2="1125.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">po</heading>
+                </branch>
+                <branch hideLink="false" x1="1441.7" y1="1125.25" x2="1479.88" y2="1144.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">gettext</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1144.25" x2="1468.42" y2="1163.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">heredocs/herestrings</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1163.25" x2="1430.7" y2="1182.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">/etc/services</heading>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1201.25" x2="1422.27" y2="1220.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">debugging</heading>
+                <branch hideLink="false" x1="1442.27" y1="1182.25" x2="1474.8" y2="1201.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">caller</heading>
+                </branch>
+                <branch hideLink="false" x1="1442.27" y1="1201.25" x2="1474.12" y2="1220.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">times</heading>
+                    <htmlnote  fonthint="var">
+
+<html><head><meta name="qrichtext" content="1"></meta><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">accumulated time for shell</p><p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"></p></body></html>
+                    </htmlnote>
+                </branch>
+                <branch hideLink="false" x1="1442.27" y1="1220.25" x2="1472.36" y2="1239.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">hash</heading>
+                    <branch hideLink="false" x1="1492.36" y1="1220.25" x2="1566.27" y2="1239.25" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">path searching</heading>
+                    </branch>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1248.75" x2="1394.53" y2="1267.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">type</heading>
+                <branch hideLink="false" x1="1414.53" y1="1239.25" x2="1548.12" y2="1277.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">discover things (alias, script, functions) with same name</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="1367.22" y1="1296.25" x2="1393.2" y2="1315.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">GUI</heading>
+                <branch hideLink="false" x1="1413.2" y1="1277.25" x2="1448.28" y2="1296.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">dialog</heading>
+                </branch>
+                <branch hideLink="false" x1="1413.2" y1="1296.25" x2="1447.28" y2="1315.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">zenity</heading>
+                </branch>
+                <branch hideLink="false" x1="1413.2" y1="1315.25" x2="1453.28" y2="1334.25" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">kdialog</heading>
+                </branch>
+            </branch>
+        </branch>
+        <branch relPosX="257.688" relPosY="282.188" hideLink="false" x1="1074.94" y1="1277.44" x2="1130.89" y2="1298.44" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">var tricks</heading>
+            <branch hideLink="false" x1="1150.89" y1="1183.44" x2="1218.81" y2="1202.44" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">readonly vars</heading>
+            </branch>
+            <branch hideLink="false" x1="1150.89" y1="1202.44" x2="1192.08" y2="1221.44" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">declare</heading>
+            </branch>
+            <branch hideLink="false" x1="1150.89" y1="1221.44" x2="1186.64" y2="1240.44" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">arrays</heading>
+            </branch>
+            <branch hideLink="false" x1="1150.89" y1="1240.44" x2="1255.19" y2="1259.44" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">stuff from mpotter talk</heading>
+            </branch>
+            <branch hideLink="false" x1="1150.89" y1="1316.44" x2="1209.39" y2="1335.44" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">known vars</heading>
+                <branch hideLink="false" x1="1229.39" y1="1259.44" x2="1303.56" y2="1278.44" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">TIMEFORMAT</heading>
+                </branch>
+                <branch hideLink="false" x1="1229.39" y1="1278.44" x2="1282.47" y2="1297.44" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">RANDOM</heading>
+                </branch>
+                <branch hideLink="false" x1="1229.39" y1="1297.44" x2="1253.25" y2="1316.44" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">IFS</heading>
+                </branch>
+                <branch hideLink="false" x1="1229.39" y1="1316.44" x2="1317.25" y2="1335.44" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">pipefail/pipestatus</heading>
+                </branch>
+                <branch hideLink="false" x1="1229.39" y1="1335.44" x2="1268.36" y2="1354.44" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">fignore</heading>
+                </branch>
+                <branch hideLink="false" x1="1229.39" y1="1354.44" x2="1284.44" y2="1373.44" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">globignore</heading>
+                </branch>
+                <branch hideLink="false" x1="1229.39" y1="1373.44" x2="1268.73" y2="1392.44" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">SHLVL</heading>
+                </branch>
+            </branch>
+        </branch>
+        <branch relPosX="154" relPosY="501" hideLink="false" x1="971.25" y1="1496.25" x2="1036.91" y2="1517.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">subsitution</heading>
+            <branch hideLink="false" x1="1056.91" y1="1449.75" x2="1150.8" y2="1468.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">process subsitution</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.91" y1="1468.75" x2="1128.06" y2="1487.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">command sub</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.91" y1="1487.75" x2="1163.12" y2="1506.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">compound commands</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.91" y1="1506.75" x2="1138.59" y2="1525.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">brace expansion</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.91" y1="1525.75" x2="1087.55" y2="1544.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">math</heading>
+            </branch>
+            <branch hideLink="false" x1="1056.91" y1="1544.75" x2="1075.67" y2="1563.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">let</heading>
+            </branch>
+        </branch>
+        <branch relPosX="-306" relPosY="337" hideLink="false" x1="511.25" y1="1332.25" x2="610.328" y2="1353.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">distro differences</heading>
+            <branch hideLink="false" x1="419.578" y1="1323.75" x2="491.25" y2="1342.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">dsh on ubuntu</heading>
+            </branch>
+            <branch hideLink="false" x1="408.469" y1="1342.75" x2="491.25" y2="1361.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">specify /bin/bash</heading>
+            </branch>
+        </branch>
+        <branch relPosX="-539.938" relPosY="299.5" hideLink="false" x1="277.312" y1="1294.75" x2="351.921" y2="1315.75" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">history tricks</heading>
+            <branch hideLink="false" x1="214.453" y1="1124.75" x2="257.312" y2="1143.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histcmd</heading>
+            </branch>
+            <branch hideLink="false" x1="203.046" y1="1191.25" x2="257.312" y2="1210.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histcontrol</heading>
+                <branch hideLink="false" x1="103.593" y1="1143.75" x2="183.046" y2="1162.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">colon seperated</heading>
+                </branch>
+                <branch hideLink="false" x1="120.218" y1="1162.75" x2="183.046" y2="1181.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">ignorespace</heading>
+                </branch>
+                <branch hideLink="false" x1="125.671" y1="1181.75" x2="183.046" y2="1200.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">ignoredups</heading>
+                </branch>
+                <branch hideLink="false" x1="127.453" y1="1200.75" x2="183.046" y2="1219.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">ignoreboth</heading>
+                </branch>
+                <branch hideLink="false" x1="35.3589" y1="1219.75" x2="183.046" y2="1257.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">doesn't work for second lines of commands</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="215.562" y1="1257.75" x2="257.312" y2="1276.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histsize</heading>
+            </branch>
+            <branch hideLink="false" x1="220.562" y1="1286.25" x2="257.312" y2="1305.25" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histfile</heading>
+                <branch hideLink="false" x1="155.718" y1="1276.75" x2="200.562" y2="1295.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">per-host</heading>
+                </branch>
+                <branch hideLink="false" x1="141.078" y1="1295.75" x2="200.562" y2="1314.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">per-month?</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="202.796" y1="1314.75" x2="257.312" y2="1333.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histfilesize</heading>
+            </branch>
+            <branch hideLink="false" x1="205.593" y1="1333.75" x2="257.312" y2="1352.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histignore</heading>
+                <branch hideLink="false" x1="27.7026" y1="1333.75" x2="185.593" y2="1352.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">no implicit globbing, matches ^to$</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="186.406" y1="1352.75" x2="257.312" y2="1371.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histtimeformat</heading>
+                <branch hideLink="false" x1="128.562" y1="1352.75" x2="166.406" y2="1371.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">stftime</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="170.109" y1="1371.75" x2="257.312" y2="1390.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histappend option</heading>
+            </branch>
+            <branch hideLink="false" x1="183.203" y1="1390.75" x2="257.312" y2="1409.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">fc (edit history)</heading>
+            </branch>
+            <branch hideLink="false" x1="176.406" y1="1409.75" x2="257.312" y2="1428.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">cmdhist vs lithist</heading>
+                <branch hideLink="false" x1="28.937" y1="1409.75" x2="156.406" y2="1428.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">multi-line with newlines or ;</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="171.187" y1="1428.75" x2="257.312" y2="1447.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histroy expansion</heading>
+            </branch>
+            <branch hideLink="false" x1="209.921" y1="1447.75" x2="257.312" y2="1466.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">histverify</heading>
+            </branch>
+            <branch hideLink="false" x1="186.718" y1="1466.75" x2="257.312" y2="1485.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">history search</heading>
+            </branch>
+        </branch>
+        <branch relPosX="-356" relPosY="151" hideLink="false" x1="461.25" y1="1146.25" x2="487.906" y2="1167.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">vim</heading>
+            <branch hideLink="false" x1="356" y1="1099.75" x2="441.25" y2="1118.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">map (keystrokes)</heading>
+            </branch>
+            <branch hideLink="false" x1="371" y1="1137.75" x2="441.25" y2="1156.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">map (graphic)</heading>
+                <branch hideLink="false" x1="296.156" y1="1118.75" x2="351" y2="1137.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">movement</heading>
+                </branch>
+                <branch hideLink="false" x1="313.031" y1="1137.75" x2="351" y2="1156.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">modes</heading>
+                </branch>
+                <branch hideLink="false" x1="298.703" y1="1156.75" x2="351" y2="1175.75" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">command</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="392.734" y1="1175.75" x2="441.25" y2="1194.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">modifiers</heading>
+            </branch>
+            <branch hideLink="false" x1="394.391" y1="1194.75" x2="441.25" y2="1213.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">vimcasts</heading>
+            </branch>
+        </branch>
+        <branch relPosX="-315" relPosY="-99" hideLink="false" x1="502.25" y1="896.25" x2="557.906" y2="917.25" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">Readline</heading>
+            <branch hideLink="false" x1="434.969" y1="811.75" x2="482.25" y2="830.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">bell style</heading>
+            </branch>
+            <branch hideLink="false" x1="420" y1="830.75" x2="482.25" y2="849.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">expand tilde</heading>
+            </branch>
+            <branch hideLink="false" x1="404.125" y1="849.75" x2="482.25" y2="868.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">horizontal scroll</heading>
+            </branch>
+            <branch hideLink="false" x1="444.297" y1="868.75" x2="482.25" y2="887.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">inputrc</heading>
+            </branch>
+            <branch hideLink="false" x1="388.25" y1="887.75" x2="482.25" y2="906.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">mark modified lines</heading>
+            </branch>
+            <branch hideLink="false" x1="399.25" y1="906.75" x2="482.25" y2="925.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">readline wrapper</heading>
+            </branch>
+            <branch hideLink="false" x1="400.031" y1="925.75" x2="482.25" y2="944.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">show all if ambig</heading>
+            </branch>
+            <branch hideLink="false" x1="454.938" y1="944.75" x2="482.25" y2="963.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">bind</heading>
+            </branch>
+            <branch hideLink="false" x1="366.594" y1="963.75" x2="482.25" y2="982.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">emacs vs vi keybindings</heading>
+            </branch>
+            <branch hideLink="false" x1="379.5" y1="982.75" x2="482.25" y2="1001.75" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">command line editing</heading>
+            </branch>
+        </branch>
+        <branch relPosX="-511.5" relPosY="-464.25" hideLink="false" x1="305.75" y1="531" x2="364.406" y2="552" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">cool tools</heading>
+            <branch hideLink="false" x1="202.297" y1="28.5" x2="285.75" y2="47.5" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">my helper scripts</heading>
+                <branch hideLink="false" x1="128.344" y1="0" x2="182.297" y2="19" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">checkauth</heading>
+                </branch>
+                <branch hideLink="false" x1="140.578" y1="19" x2="182.297" y2="38" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">getauth</heading>
+                </branch>
+                <branch hideLink="false" x1="0" y1="38" x2="182.297" y2="57" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">dante (ssh single command interactive)</heading>
+                </branch>
+                <branch hideLink="false" x1="153.531" y1="57" x2="182.297" y2="76" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">wcat</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="261.984" y1="76" x2="285.75" y2="95" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">gist</heading>
+            </branch>
+            <branch hideLink="false" x1="209.375" y1="95" x2="285.75" y2="114" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">poor man's seq</heading>
+                <branch hideLink="false" x1="92" y1="95" x2="189.375" y2="114" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">both a script and {..}</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="244.578" y1="114" x2="285.75" y2="133" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">todo.sh</heading>
+            </branch>
+            <branch hideLink="false" x1="189.547" y1="133" x2="285.75" y2="152" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">weechat/irssi/others</heading>
+            </branch>
+            <branch hideLink="false" x1="245.031" y1="152" x2="285.75" y2="171" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">getoptx</heading>
+            </branch>
+            <branch hideLink="false" x1="258.656" y1="171" x2="285.75" y2="190" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">bcat</heading>
+            </branch>
+            <branch hideLink="false" x1="258.109" y1="190" x2="285.75" y2="209" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">mutt</heading>
+            </branch>
+            <branch hideLink="false" x1="221.125" y1="237.5" x2="285.75" y2="256.5" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">greplike stuff</heading>
+                <branch hideLink="false" x1="176.031" y1="209" x2="201.125" y2="228" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">grin</heading>
+                </branch>
+                <branch hideLink="false" x1="177.578" y1="228" x2="201.125" y2="247" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">ack</heading>
+                </branch>
+                <branch hideLink="false" x1="167.703" y1="247" x2="201.125" y2="266" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">xgrep</heading>
+                </branch>
+                <branch hideLink="false" x1="141.422" y1="266" x2="201.125" y2="285" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">grep --color</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="183.906" y1="285" x2="285.75" y2="304" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">stringent (bash strict)</heading>
+            </branch>
+            <branch hideLink="false" x1="228.922" y1="304" x2="285.75" y2="323" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">crush-tools</heading>
+            </branch>
+            <branch hideLink="false" x1="193.75" y1="323" x2="285.75" y2="342" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">colors/colors265.pl</heading>
+            </branch>
+            <branch hideLink="false" x1="209.828" y1="342" x2="285.75" y2="361" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">more/less/most</heading>
+                <branch hideLink="false" x1="125.125" y1="342" x2="189.828" y2="361" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">lessopts (-X)</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="229.266" y1="361" x2="285.75" y2="380" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">google CLI</heading>
+                <branch hideLink="false" x1="110.953" y1="361" x2="209.266" y2="380" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">markdown to google</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="208.969" y1="380" x2="285.75" y2="399" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">directed graphs</heading>
+                <branch hideLink="false" x1="161.328" y1="380" x2="188.969" y2="399" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">tsort</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="240.031" y1="503.5" x2="285.75" y2="522.5" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">gnutools</heading>
+                <branch hideLink="false" x1="205.266" y1="399" x2="220.031" y2="418" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">tr</heading>
+                </branch>
+                <branch hideLink="false" x1="182.641" y1="418" x2="220.031" y2="437" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">cat/tac</heading>
+                </branch>
+                <branch hideLink="false" x1="198.484" y1="437" x2="220.031" y2="456" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">cut</heading>
+                </branch>
+                <branch hideLink="false" x1="195.156" y1="465.5" x2="220.031" y2="484.5" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">sort</heading>
+                    <branch hideLink="false" x1="154.391" y1="456" x2="175.156" y2="475" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">ips</heading>
+                    </branch>
+                    <branch hideLink="false" x1="143.844" y1="475" x2="175.156" y2="494" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">fields</heading>
+                    </branch>
+                </branch>
+                <branch hideLink="false" x1="187.172" y1="494" x2="220.031" y2="513" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">paste</heading>
+                </branch>
+                <branch hideLink="false" x1="195.266" y1="513" x2="220.031" y2="532" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">lam</heading>
+                </branch>
+                <branch hideLink="false" x1="196.047" y1="532" x2="220.031" y2="551" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">join</heading>
+                </branch>
+                <branch hideLink="false" x1="196.031" y1="551" x2="220.031" y2="570" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">xxd</heading>
+                </branch>
+                <branch hideLink="false" x1="195.484" y1="570" x2="220.031" y2="589" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">find</heading>
+                    <branch hideLink="false" x1="125.312" y1="570" x2="175.484" y2="589" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">find tricks</heading>
+                    </branch>
+                </branch>
+                <branch hideLink="false" x1="172.078" y1="589" x2="220.031" y2="608" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">dos2unix</heading>
+                </branch>
+                <branch hideLink="false" x1="201.484" y1="608" x2="220.031" y2="627" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">bc</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="233.906" y1="807.5" x2="285.75" y2="826.5" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">resources</heading>
+                <branch hideLink="false" x1="70.6562" y1="627" x2="213.906" y2="646" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">advanced bash scripting guide</heading>
+                </branch>
+                <branch hideLink="false" x1="105.297" y1="646" x2="213.906" y2="665" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">learning the bash shell</heading>
+                </branch>
+                <branch hideLink="false" x1="161.625" y1="665" x2="213.906" y2="684" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">man bash</heading>
+                </branch>
+                <branch hideLink="false" x1="132.797" y1="712.5" x2="213.906" y2="731.5" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">one simple thing</heading>
+                    <branch hideLink="true" x1="68.2812" y1="684" x2="112.797" y2="703" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">sprunge</heading>
+                    </branch>
+                    <branch hideLink="false" x1="63.2969" y1="703" x2="112.797" y2="722" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">autojump</heading>
+                    </branch>
+                    <branch hideLink="false" x1="29.7812" y1="722" x2="112.797" y2="741" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">moc/bashpodder</heading>
+                    </branch>
+                    <branch hideLink="false" x1="80.4688" y1="741" x2="112.797" y2="760" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">mkcd</heading>
+                    </branch>
+                </branch>
+                <branch hideLink="false" x1="173.281" y1="760" x2="213.906" y2="779" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">shell-fu</heading>
+                </branch>
+                <branch hideLink="false" x1="142.516" y1="779" x2="213.906" y2="798" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">kirkland's blog</heading>
+                    <branch hideLink="false" x1="66.2656" y1="779" x2="122.516" y2="798" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">bash notify</heading>
+                    </branch>
+                </branch>
+                <branch hideLink="false" x1="126.859" y1="893" x2="213.906" y2="912" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">boronosky's tricks</heading>
+                    <branch hideLink="false" x1="62.6875" y1="798" x2="106.859" y2="817" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">verifytar</heading>
+                    </branch>
+                    <branch hideLink="false" x1="46.25" y1="817" x2="106.859" y2="836" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">resequence</heading>
+                    </branch>
+                    <branch hideLink="false" x1="27.375" y1="836" x2="106.859" y2="855" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">make_userbase</heading>
+                    </branch>
+                    <branch hideLink="false" x1="57.25" y1="855" x2="106.859" y2="874" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">exit stack</heading>
+                    </branch>
+                    <branch hideLink="false" x1="55.125" y1="874" x2="106.859" y2="893" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">mkdirsafe</heading>
+                    </branch>
+                    <branch hideLink="false" x1="50.0312" y1="893" x2="106.859" y2="912" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">array tricks</heading>
+                    </branch>
+                    <branch hideLink="false" x1="71.2188" y1="912" x2="106.859" y2="931" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">decho</heading>
+                    </branch>
+                    <branch hideLink="false" x1="47.8281" y1="931" x2="106.859" y2="950" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">signal traps</heading>
+                    </branch>
+                    <branch hideLink="false" x1="35.0625" y1="950" x2="106.859" y2="969" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">var references</heading>
+                    </branch>
+                    <branch hideLink="false" x1="65.5781" y1="969" x2="106.859" y2="988" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">threads</heading>
+                    </branch>
+                    <branch hideLink="false" x1="55.0312" y1="988" x2="106.859" y2="1007" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">one-liners</heading>
+                    </branch>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="261.75" y1="1016.5" x2="285.75" y2="1035.5" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">ssh</heading>
+                <branch hideLink="false" x1="181.031" y1="1007" x2="241.75" y2="1026" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">config tricks</heading>
+                    <branch hideLink="false" x1="92.5625" y1="1007" x2="161.031" y2="1026" incImgV="false" incImgH="false">
+                        <heading  textColor="#000000">null host keys</heading>
+                    </branch>
+                </branch>
+                <branch hideLink="false" x1="169.391" y1="1026" x2="241.75" y2="1045" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">client swtiches</heading>
+                </branch>
+            </branch>
+            <branch hideLink="false" x1="193.422" y1="1045" x2="285.75" y2="1064" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">byobu/screen/tmux</heading>
+            </branch>
+            <branch hideLink="false" x1="170.75" y1="1064" x2="285.75" y2="1083" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">clusterssh/pussh/mussh</heading>
+            </branch>
+        </branch>
+        <branch relPosX="-70.25" relPosY="-503.125" hideLink="false" x1="747" y1="492.125" x2="791.984" y2="513.125" incImgV="false" incImgH="false">
+            <heading  textColor="#000000">startup</heading>
+            <branch hideLink="false" x1="607.938" y1="407.625" x2="727" y2="426.625" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">bashrc vs profile vs /etc/*</heading>
+            </branch>
+            <branch hideLink="false" x1="668.625" y1="426.625" x2="727" y2="445.625" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">pathmunge</heading>
+            </branch>
+            <branch hideLink="false" x1="664.406" y1="445.625" x2="727" y2="464.625" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">bash_logout</heading>
+            </branch>
+            <branch hideLink="false" x1="551.562" y1="464.625" x2="727" y2="483.625" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">ssh-agent only makes sense in profile</heading>
+            </branch>
+            <branch hideLink="false" x1="686.828" y1="531.125" x2="727" y2="550.125" incImgV="false" incImgH="false">
+                <heading  textColor="#000000">options</heading>
+                <branch hideLink="false" x1="598.891" y1="483.625" x2="666.828" y2="502.625" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">-c commands</heading>
+                </branch>
+                <branch hideLink="false" x1="528.953" y1="502.625" x2="666.828" y2="521.625" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">-i interactive (force alá dante)</heading>
+                </branch>
+                <branch hideLink="false" x1="628.984" y1="521.625" x2="666.828" y2="540.625" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">-l login</heading>
+                </branch>
+                <branch hideLink="false" x1="626.203" y1="540.625" x2="666.828" y2="559.625" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">-s stdin</heading>
+                </branch>
+                <branch hideLink="false" x1="611.734" y1="559.625" x2="666.828" y2="578.625" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">-/+O shopt</heading>
+                </branch>
+                <branch hideLink="false" x1="610.672" y1="578.625" x2="666.828" y2="597.625" incImgV="false" incImgH="false">
+                    <heading  textColor="#000000">--restricted</heading>
+                </branch>
+            </branch>
+        </branch>
+    </mapcenter>
+    <select>bo:3</select>
+</vymmap>

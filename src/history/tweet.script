@@ -1,0 +1,57 @@
+#!/bin/bash
+# setup
+DELAY=4
+DISP=':1.0'
+## set terminal and browser vars
+echo "detected these windows: "
+ratpoison -d ${DISP} -c 'windows %n %a'
+BROWSER=$(ratpoison -d ${DISP} -c 'windows %n %a %t' | grep -i uzbl-core | cut -d ' ' -f 1 )
+TERMINAL=$(ratpoison -d ${DISP} -c 'windows %n %a %t' | grep 'gnome-terminal' | cut -d ' ' -f 1)
+# a sub_routine to switch ratpoison windows
+set_screen() {
+  TITLE=$@
+  echo "switching to window: ${TITLE}"
+  ratpoison -d ${DISP} -c "select ${TITLE}"
+}
+
+echo "refresh browser, then press enter"
+read foo
+set_screen ${TERMINAL}
+docmd.sh "unset PROMPT_COMMAND"
+docmd.sh "cd ${HOME}"
+clearscreen.sh
+echo "start recording, then press enter"
+read foo
+docmd.sh "echo \"testing bti 'dent'ing\" | bti --bash"
+sleep ${DELAY}
+sleep ${DELAY}
+set_screen ${BROWSER}
+sleep ${DELAY}
+sleep ${DELAY}
+set_screen ${TERMINAL}
+sleep ${DELAY}
+sleep ${DELAY}
+docmd.sh "cat dent_prompt.sh"
+sleep ${DELAY}
+docmd.sh "source dent_prompt.sh"
+sleep ${DELAY}
+docmd.sh "echo \"my Bonnie lies over the ocean.\""
+sleep ${DELAY}
+docmd.sh "echo \"my Bonnie lies over the sea.\""
+sleep ${DELAY}
+sleep ${DELAY}
+set_screen ${BROWSER}
+sleep ${DELAY}
+sleep ${DELAY}
+set_screen ${TERMINAL}
+docmd.sh "echo \"my Bonnie lies over the ocean.\""
+sleep ${DELAY}
+docmd.sh 'echo "Oh bring back my Bonnie to me..."'
+sleep ${DELAY}
+sleep ${DELAY}
+set_screen ${BROWSER}
+sleep ${DELAY}
+sleep ${DELAY}
+sleep ${DELAY}
+sleep ${DELAY}
+echo "please stop recording"
